@@ -5,6 +5,7 @@ import Linkedin from "./icons/Linkedin";
 import SocialPill from "./components/SocialPill";
 import Github from "./icons/Github";
 import Mail from "./icons/Mail";
+import Experiencia from "./components/Experiencia";
 function App() {
   return (
     <>
@@ -50,7 +51,9 @@ function App() {
             </span>
           </SocialPill>
         </nav>
+
       </section>
+        <Experiencia/>
     </>
   );
 }
