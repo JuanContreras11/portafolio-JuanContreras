@@ -7,16 +7,16 @@ const Header = () => {
         <img src={perfilImg} alt="" className="size-14 rounded-full"/>
       <nav className=" flex  flex-row gap-x-40 items-center h-20 opacity-80 font-onest ">
         <a href="/" className="text-white">
-          Home
+          Inicio
         </a>
         <a href="/about" className="text-white">
-          About
+          Sobre Mi
         </a>
-        <a href="/proyects" className="text-white">
-          Proyects
+        <a href="/proyectos" className="text-white">
+          Proyectos
         </a>
-        <a href="/contact" className="text-white">
-          Contact
+        <a href="/contacto" className="text-white">
+          Contacto
         </a>
       </nav>
     </header>
