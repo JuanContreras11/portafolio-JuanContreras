@@ -10,25 +10,25 @@ function App() {
     <>
       <Header></Header>
       <section className="w-full py-44">
-        <h1 className="text-white text-5xl font-bold font-onest mb-5 flex  gap-x-5 justify-center">
+        <h1 className="text-white text-5xl font-bold font-onest mb-5 flex justify-between">
           Hola!, soy Juan Contreras
-          <a
+           <a
             href="https://www.linkedin.com/in/juan-contreras-17277715b/"
             target="_blank"
             rel="noopener"
             className="flex justify-center items-center "
           >
             <Badge>Disponible para trabajar</Badge>
-          </a>
+          </a> 
         </h1>
-        <h2 className="text-white font-onest text-2xl opacity-90 text-balance py-5">
+        <h2 className="text-white font-onest text-2xl opacity-90 text-balance py-5 text-left">
           <span className="text-yellow-200/90">Desarrollador Junior </span>
           <span>Estudiante Tecnico en Informática</span> de
           <span className="text-red-300/70"> Santiago de Chile.</span>
           <span> Me gusta crear paginas esteticas y funcionales</span>
         </h2>
 
-        <nav className="flex gap-x-2 justify-center ">
+        <nav className="flex gap-x-2 justify-start ">
           <SocialPill href="https://www.linkedin.com/in/juan-contreras-17277715b/">
             <span className="text-white flex flex-row gap-2 items-center p-1">
               <Linkedin />

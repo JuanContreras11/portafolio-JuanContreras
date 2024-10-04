@@ -14,7 +14,7 @@ const SocialPill = (props) => {
       href={props.href}
       target="_blank"
       rel="noopener"
-      className="rounded-full border border-white/30 flex cursor-pointer  px-2"
+      className="rounded-full border border-white/30 flex cursor-pointer px-2 font-onest items-center"
       onClick={handleClick}
     >
       {props.children}
