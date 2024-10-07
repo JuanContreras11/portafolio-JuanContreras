@@ -10,8 +10,8 @@ const Header = () => {
   };
 
   return (
-    <header className="flex flex-wrap items-center justify-between p-4">
-      <img src={perfilImg} alt="Perfil" className="w-14 h-14 rounded-full" />
+    <header className="flex  items-center justify-around  p-4">
+      <img src={perfilImg} alt="Perfil" className="w-14 h-14 rounded-full md:hidden block " /> 
       <div className="sm:hidden">
         <button onClick={toggleMenu} className="text-white">
           {menuOpen ? <MenuBars size={24} /> : <MenuBars size={24} />}
@@ -20,18 +20,18 @@ const Header = () => {
       <nav
         className={`${
           menuOpen ? "flex" : "hidden"
-        } flex-col sm:flex sm:flex-row gap-y-4 sm:gap-x-40 items-center h-20 opacity-80 font-onest`}
+        } flex-col sm:flex sm:flex-row gap-y-4 sm:gap-x-24 items-center h-20 opacity-80 font-onest`}
       >
         <a href="/" className="text-white">
           Inicio
         </a>
-        <a href="/about" className="text-white">
+        <a href="/" className="text-white">
           Sobre Mi
         </a>
-        <a href="/proyectos" className="text-white">
+        <a href="/" className="text-white">
           Proyectos
         </a>
-        <a href="/contacto" className="text-white">
+        <a href="/" className="text-white">
           Contacto
         </a>
       </nav>
