@@ -8,9 +8,9 @@ import perfilImg from '../assets/Perfil5.jpg'
 
 const Section = () => {
   return (
-    <section className="w-full py-20  flex flex-row ">
-      <div className=' flex flex-col '>
-        <h1 className="text-white text-5xl font-bold font-onest mb-5  md:w-[100%] flex justify-center ">
+    <section className="w-full p-20  flex items-center border">
+      <div className=' flex flex-col border border-violet-800 '>
+        <h1 className="text-white text-5xl font-bold font-onest   md:w-[100%] flex justify-center border">
           Hola!, soy Juan Contreras
           <a
             href="https://www.linkedin.com/in/juan-contreras-17277715b/"
@@ -21,7 +21,7 @@ const Section = () => {
             {/* <Badge>Disponible para trabajar</Badge> */}
           </a>
         </h1>
-        <h2 className="text-white font-onest text-2xl opacity-90 text-balance py-5 text-left md:w-[100%] flex-col justify-center items-center  pl-[14%] pt-[10%]">
+        <h2 className="text-white font-onest border text-2xl opacity-90 text-balance py-5 text-left md:w-[100%] h-[60%] flex-col justify-center items-center  pl-[14%] ">
           <span className="text-yellow-200/90">Desarrollador Junior </span>
           <span>Estudiante Tecnico en Informática</span> de
           <span className="text-red-300/70"> Santiago de Chile.</span>
@@ -30,7 +30,7 @@ const Section = () => {
           ideas al siguiente nivel 
         </h2>
 
-        <nav className="flex flex-col sm:flex-row sm:gap-x-2 gap-y-2 justify-center mt-10">
+        <nav className="flex flex-col sm:flex-row sm:gap-x-2 gap-y-2 justify-center ">
           <SocialPill href="https://www.linkedin.com/in/juan-contreras-17277715b/">
             <span className="text-white flex flex-row gap-2 items-center p-1 rounded-full ">
               <Linkedin />
