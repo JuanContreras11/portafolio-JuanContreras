@@ -8,8 +8,8 @@ import perfilImg from '../assets/Perfil5.jpg'
 
 const Section = () => {
   return (
-    <section className="w-full py-20  flex flex-row border">
-      <div className='border flex flex-col '>
+    <section className="w-full py-20  flex flex-row ">
+      <div className=' flex flex-col '>
         <h1 className="text-white text-5xl font-bold font-onest mb-5  md:w-[100%] flex justify-center ">
           Hola!, soy Juan Contreras
           <a
@@ -21,7 +21,7 @@ const Section = () => {
             {/* <Badge>Disponible para trabajar</Badge> */}
           </a>
         </h1>
-        <h2 className="text-white font-onest text-2xl opacity-90 text-balance py-5 text-left md:w-[100%] flex-col justify-center items-center border pl-[14%] pt-[10%]">
+        <h2 className="text-white font-onest text-2xl opacity-90 text-balance py-5 text-left md:w-[100%] flex-col justify-center items-center  pl-[14%] pt-[10%]">
           <span className="text-yellow-200/90">Desarrollador Junior </span>
           <span>Estudiante Tecnico en Informática</span> de
           <span className="text-red-300/70"> Santiago de Chile.</span>
