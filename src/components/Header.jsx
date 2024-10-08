@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import MenuBars from "../icons/MenuBars";
-import perfilImg from "../assets/perfil.jpg";
+import perfilImg from "../assets/Perfil5.jpg";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
