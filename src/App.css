@@ -3,10 +3,10 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  color-scheme: light dark;
+ 
 }
 
-body {
+* {
   background: radial-gradient(125% 125% at 50% 10%, #000 40%, rgb(194, 51, 238) 100%);
   background-attachment: fixed;
 }
