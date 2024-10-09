@@ -6,7 +6,16 @@
  
 }
 
-* {
+body {
   background: radial-gradient(125% 125% at 50% 10%, #000 40%, rgb(194, 51, 238) 100%);
   background-attachment: fixed;
+}
+
+#card1{
+  background-image: url(/src/assets/marketplace.jpg);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  width:100%
 }
